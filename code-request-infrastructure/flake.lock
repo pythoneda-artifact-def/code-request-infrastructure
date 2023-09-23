@@ -84,59 +84,6 @@
         "type": "github"
       }
     },
-    "pythoneda-artifact-code-request-infrastructure": {
-      "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
-        "nixos": [
-          "nixos"
-        ],
-        "pythoneda-shared-artifact-changes-events": [
-          "pythoneda-shared-artifact-changes-events"
-        ],
-        "pythoneda-shared-artifact-changes-events-infrastructure": [
-          "pythoneda-shared-artifact-changes-events-infrastructure"
-        ],
-        "pythoneda-shared-artifact-changes-shared": [
-          "pythoneda-shared-artifact-changes-shared"
-        ],
-        "pythoneda-shared-code-requests-events": [
-          "pythoneda-shared-code-requests-events"
-        ],
-        "pythoneda-shared-code-requests-events-infrastructure": [
-          "pythoneda-shared-code-requests-events-infrastructure"
-        ],
-        "pythoneda-shared-code-requests-shared": [
-          "pythoneda-shared-code-requests-shared"
-        ],
-        "pythoneda-shared-pythoneda-banner": [
-          "pythoneda-shared-pythoneda-banner"
-        ],
-        "pythoneda-shared-pythoneda-domain": [
-          "pythoneda-shared-pythoneda-domain"
-        ],
-        "pythoneda-shared-pythoneda-infrastructure": [
-          "pythoneda-shared-pythoneda-infrastructure"
-        ]
-      },
-      "locked": {
-        "dir": "code-request-infrastructure",
-        "lastModified": 1695397486,
-        "narHash": "sha256-ObhyNznI5j6Yj8VtYqcaor6IJCGM2cBvTJDhF56E9E0=",
-        "owner": "pythoneda-artifact",
-        "repo": "code-request-infrastructure-artifact",
-        "rev": "9707faebb58132d234248da71a4b49556c4d5d64",
-        "type": "github"
-      },
-      "original": {
-        "dir": "code-request-infrastructure",
-        "owner": "pythoneda-artifact",
-        "ref": "0.0.1a2",
-        "repo": "code-request-infrastructure-artifact",
-        "type": "github"
-      }
-    },
     "pythoneda-shared-artifact-changes-events": {
       "inputs": {
         "flake-utils": [
@@ -599,7 +546,6 @@
         "flake-utils": "flake-utils",
         "grpcio": "grpcio",
         "nixos": "nixos",
-        "pythoneda-artifact-code-request-infrastructure": "pythoneda-artifact-code-request-infrastructure",
         "pythoneda-shared-artifact-changes-events": "pythoneda-shared-artifact-changes-events",
         "pythoneda-shared-artifact-changes-events-infrastructure": "pythoneda-shared-artifact-changes-events-infrastructure",
         "pythoneda-shared-artifact-changes-shared": "pythoneda-shared-artifact-changes-shared",
