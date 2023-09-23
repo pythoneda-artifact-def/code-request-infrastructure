@@ -197,8 +197,8 @@
       let
         org = "pythoneda-artifact";
         repo = "code-request-infrastructure";
-        version = "0.0.1a2";
-        sha256 = "sha256-mNg+ZddhaxXVnZLrJ2c1oE7T3nWb52/0F47/GIHAhpU=";
+        version = "0.0.1a3";
+        sha256 = "sha256-S9in/Lm1cwAOm5TIz7GJ0qYRfS7oKJj70MsnU7AKgJI=";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.artifact.code_request.infrastructure";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
