@@ -26,12 +26,12 @@ homepage = "@homepage@"
 packages = [{include = "@package@"}]
 
 [tool.poetry.dependencies]
+dbus-next = "^@dbusNext@"
 python = "^@pythonMajorMinorVersion@"
+pythoneda-shared-artifact-changes-events = "^@pythonedaSharedArtifactChangesEvents@"
 pythoneda-shared-artifact-changes-events-infrastructure = "^@pythonedaSharedArtifactChangesEventsInfrastructure@"
-pythoneda-shared-code-requests-events-infrastructure = "^@pythonedaSharedCodeRequestsEventsInfrastructure@"
 pythoneda-shared-pythoneda-banner = "^@pythonedaSharedPythonedaBanner@"
 pythoneda-shared-pythoneda-domain = "^@pythonedaSharedPythonedaDomain@"
-pythoneda-shared-pythoneda-infrastructure = "^@pythonedaSharedPythonedaInfrastructure@"
 
 [build-system]
 requires = ["poetry-core"]
