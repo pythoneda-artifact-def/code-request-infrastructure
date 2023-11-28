@@ -1,8 +1,8 @@
-# code-request-infrastructure/pyprojecttoml.template
+# pyprojecttoml.template
 #
 # This file is the template for pythoneda-artifact/code-request-infrastructure's pyproject.toml
 #
-# Copyright (C) 2023-today rydnr's pythoneda-artifact/code-request-infrastructure-artifact
+# Copyright (C) 2023-today rydnr's pythoneda-artifact-def/code-request-infrastructure
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -28,8 +28,8 @@ packages = [{include = "@package@"}]
 [tool.poetry.dependencies]
 dbus-next = "^@dbusNext@"
 python = "^@pythonMajorMinorVersion@"
-pythoneda-shared-artifact-changes-events = "^@pythonedaSharedArtifactChangesEvents@"
-pythoneda-shared-artifact-changes-events-infrastructure = "^@pythonedaSharedArtifactChangesEventsInfrastructure@"
+pythoneda-shared-artifact-events = "^@pythonedaSharedArtifactEvents@"
+pythoneda-shared-artifact-events-infrastructure = "^@pythonedaSharedArtifactEventsInfrastructure@"
 pythoneda-shared-pythoneda-banner = "^@pythonedaSharedPythonedaBanner@"
 pythoneda-shared-pythoneda-domain = "^@pythonedaSharedPythonedaDomain@"
 
