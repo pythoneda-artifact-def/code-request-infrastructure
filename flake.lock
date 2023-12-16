@@ -82,16 +82,16 @@
         "pythoneda-shared-pythoneda-infrastructure": "pythoneda-shared-pythoneda-infrastructure"
       },
       "locked": {
-        "lastModified": 1702670509,
-        "narHash": "sha256-b2HjKr6TZKWnMs1YTJBVImBmt+tl9Itt3BiXw0fpRmg=",
+        "lastModified": 1702718055,
+        "narHash": "sha256-Rgi545qMqgeY4h1lTP5XSEfrNC8a9GYO/Jm07Al+sIA=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "events-infrastructure",
-        "rev": "c8f61dba5205cc297b315b95ec15c37b3921cb5b",
+        "rev": "ab4eb48b0ed95463886f212372c7f2a46d91e73a",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.10",
+        "ref": "0.0.11",
         "repo": "events-infrastructure",
         "type": "github"
       }
