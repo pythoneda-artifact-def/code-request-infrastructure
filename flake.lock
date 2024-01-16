@@ -1,5 +1,34 @@
 {
   "nodes": {
+    "esdbclient": {
+      "inputs": {
+        "flake-utils": [
+          "pythoneda-shared-artifact-events-infrastructure",
+          "pythoneda-shared-pythoneda-infrastructure",
+          "flake-utils"
+        ],
+        "nixos": [
+          "pythoneda-shared-artifact-events-infrastructure",
+          "pythoneda-shared-pythoneda-infrastructure",
+          "nixos"
+        ]
+      },
+      "locked": {
+        "dir": "esdbclient",
+        "lastModified": 1705227856,
+        "narHash": "sha256-mu3F53Bj7HAz8MOMCgtIgQ7ko8A0LG0MArCNqWbPHaM=",
+        "owner": "rydnr",
+        "repo": "nix-flakes",
+        "rev": "783f471d5fd80d558483b16a48499ce2ecb024ad",
+        "type": "github"
+      },
+      "original": {
+        "dir": "esdbclient",
+        "owner": "rydnr",
+        "repo": "nix-flakes",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1652776076,
@@ -48,16 +77,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1705049758,
-        "narHash": "sha256-JlSG28OvuZRYFHgpK2nRqEv5mB4QEgFa6C5V2biLIl8=",
+        "lastModified": 1705434266,
+        "narHash": "sha256-yGKfMKtC4s3lirFZBr+64nDBYbp5sz3cUeYVaYwWAPc=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "events",
-        "rev": "0412ca7c1008e61313039beef1f37d37f79a2557",
+        "rev": "ee9960ef58da2018eb21c12bd324bac2e7117e1b",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.25",
+        "ref": "0.0.26",
         "repo": "events",
         "type": "github"
       }
@@ -82,16 +111,16 @@
         "pythoneda-shared-pythoneda-infrastructure": "pythoneda-shared-pythoneda-infrastructure"
       },
       "locked": {
-        "lastModified": 1705049992,
-        "narHash": "sha256-JpWVpABFq47pirBLYE0THoXjbOaTvZZxApeLFCxZIJk=",
+        "lastModified": 1705434508,
+        "narHash": "sha256-BTRIKsU1NBhHa0GfcjkMXO/RIJPnv1lqULtY8a7u+G0=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "events-infrastructure",
-        "rev": "6fc440606d9f9613e8937d2dad6211f854386c8a",
+        "rev": "17cc052742d21033248b36b9c2d4fc6bcb9abe9c",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.18",
+        "ref": "0.0.19",
         "repo": "events-infrastructure",
         "type": "github"
       }
@@ -149,6 +178,7 @@
     },
     "pythoneda-shared-pythoneda-infrastructure": {
       "inputs": {
+        "esdbclient": "esdbclient",
         "flake-utils": [
           "pythoneda-shared-artifact-events-infrastructure",
           "flake-utils"
@@ -167,16 +197,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1705000547,
-        "narHash": "sha256-h9j0Q9O4Q81184iYIrNJ/N7uVW1E0PW1/TBHkOKQKhE=",
+        "lastModified": 1705434197,
+        "narHash": "sha256-EzJZEbYyFWAfJQQ4YrW6eY7nHk07OiR43aBfe+FnGMk=",
         "owner": "pythoneda-shared-pythoneda-def",
         "repo": "infrastructure",
-        "rev": "edbb88d01d2b31a0aa566f2bd18cf741b60e8419",
+        "rev": "615c8489fa83d31e7913cc94366bb2472272d335",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythoneda-def",
-        "ref": "0.0.17",
+        "ref": "0.0.19",
         "repo": "infrastructure",
         "type": "github"
       }
