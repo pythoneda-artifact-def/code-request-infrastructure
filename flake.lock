@@ -78,16 +78,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731778802,
-        "narHash": "sha256-PIHA1Z5fMSN9ninN4qO5vKBNTQIgWUnzd2CVtswBFHI=",
+        "lastModified": 1731909959,
+        "narHash": "sha256-1m3n27Hgex0Chao/Sz4HxtGm7gdR6UbmxKbPIU+WAVk=",
         "owner": "pythoneda-shared-artifact-def",
         "repo": "events",
-        "rev": "405ab54042e35b35df57ef862f192813c4749c9b",
+        "rev": "6cbe185d583c518f51391dba9a96f44b7b9bd2f5",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-artifact-def",
-        "ref": "0.0.55",
+        "ref": "0.0.57",
         "repo": "events",
         "type": "github"
       }
@@ -136,16 +136,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731668408,
-        "narHash": "sha256-oCzYR2e8hCD9nvjbg1rKHyfZf6t/n75fPYwSiZPZG94=",
+        "lastModified": 1731909765,
+        "narHash": "sha256-KwLX3cDzRu/lgW9jryFatoySIfCGxATzR1leH/n9LuI=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "banner",
-        "rev": "a68e4aebbe346d7514ae23d9bd743626854a46ac",
+        "rev": "7e72e325d16a769dbc7aba91a023366ff3e93fad",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.61",
+        "ref": "0.0.62",
         "repo": "banner",
         "type": "github"
       }
@@ -163,16 +163,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1731760774,
-        "narHash": "sha256-BJq/fVgsYpNRnYX0mk++S2tmmP8QfUWZFYMyngIDDvw=",
+        "lastModified": 1731909823,
+        "narHash": "sha256-O34ValNAJ88X+pka794tq9Ez4Xydx/1QLGPSKjqWLcA=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "domain",
-        "rev": "5160f6fbd264456a28bcae53765758c8c0b54232",
+        "rev": "c241b0a52a229c023437e023522c49db4213a2ff",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.70",
+        "ref": "0.0.75",
         "repo": "domain",
         "type": "github"
       }
