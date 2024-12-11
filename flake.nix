@@ -101,7 +101,7 @@
                 (map (item: ''"${item}"'') maintainers);
               dbusNext = python.pkgs.dbus-next.version;
               desc = description;
-              inherit homepage pname pythonMajorMinorVersion pythonpackage
+              inherit homepage pname pythonMajorMinorVersion package
                 version;
               package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
               pythonedaSharedArtifactEvents =
