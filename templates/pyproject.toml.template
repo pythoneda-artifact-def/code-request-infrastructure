@@ -23,7 +23,7 @@ description = "@desc@"
 authors = [ @authors@ ]
 readme = "README.md"
 homepage = "@homepage@"
-packages = [{include = "@package@"}]
+packages = [{include = "pythoneda"}]
 
 [tool.poetry.dependencies]
 dbus-next = "^@dbusNext@"
